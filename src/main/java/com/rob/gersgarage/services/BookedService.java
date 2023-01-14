@@ -17,6 +17,7 @@ public class BookedService {
 
     public Booked saveBooked(Booked booked){
         return bookedRepository.save(booked);
+        
     }
 
     public List<Booked> getBooked(){
